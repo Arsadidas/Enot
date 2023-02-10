@@ -21,21 +21,12 @@ const HorizontText = () => {
                 {posts.map((item) => {
                     if (item.id === random) {
                         return (
-                            <span>{item.title} </span>
+                            <span key={item.id}>{item.title} </span>
                         )
                     }
                 })}
             </div>
         </div>
-        // <nav className="menu">
-        //     <div className="menu__item">
-        //         <div className="marquee">
-        //             <div className="marquee__inner">
-        //
-        //             </div>
-        //         </div>
-        //     </div>
-        // </nav>
     );
 };
 

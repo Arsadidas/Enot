@@ -13,5 +13,8 @@ export const DataService = {
     },
     async removeTodo(id) {
         return await axios.delete(`http://localhost:3007/delete/${id}`)
+    },
+    async changeTodo(id, todo) {
+        return await axios.patch(`http://localhost:3007/change/${id}`)
     }
 }
