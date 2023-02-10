@@ -16,7 +16,6 @@ const AddTodo = ({setActive}) => {
         onSuccess: () => queryClient.invalidateQueries(['getAll'])
     })
 
-
     const handleAddTodo = () => {
         mutate({title, body, done: false})
         setActive(false)
@@ -29,7 +28,6 @@ const AddTodo = ({setActive}) => {
         setTitle('')
         setBody('')
     }
-
 
     return (
         <div className={styles.modalFunc}>

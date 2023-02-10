@@ -8,7 +8,6 @@ import styles from './TodoItem.module.css'
 import axios from "axios";
 
 const TodoItem = ({item}) => {
-    // console.log(item)
 
     let userId = item._id;
     let doned = item.done
@@ -43,9 +42,7 @@ const TodoItem = ({item}) => {
         mutate(id)
     }
 
-
     const label = {inputProps: {'aria-label': 'Switch demo'}};
-
 
     return (
         <Box sx={{width: "350px", margin: '0 auto 15px'}}>
