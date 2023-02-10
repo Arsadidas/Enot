@@ -1,0 +1,33 @@
+.modalFunc {
+    width: 400px;
+    background-color: #121212;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    font-family: "AbhayaLibre", sans-serif;
+    font-weight: 600;
+}
+
+.modalFuncBlock {
+}
+
+.modalFunc input {
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.modalFunc input:first-child {
+    margin-bottom: 25px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}

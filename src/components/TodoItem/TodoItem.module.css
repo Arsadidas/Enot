@@ -1,19 +1,4 @@
-@font-face {
-    font-family: "AbhayaLibre";
-    src: url("../public/fonst/abhayalibre/AbhayaLibre-SemiBold.ttf") format("truetype");
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: url("assets/back.avif");
-}
-
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+.switch .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
     background-color: #282828;
     color: white;
     margin-bottom: 15px;
@@ -32,4 +17,18 @@ body {
 
 .css-yw020d-MuiAccordionSummary-expandIconWrapper svg path {
     fill: white;
+}
+
+.switch .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+    background-color: white;
+}
+
+.switch .css-jsexje-MuiSwitch-thumb {
+    background-color: white;
+}
+
+.todoDesc {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
 }

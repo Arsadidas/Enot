@@ -1,0 +1,38 @@
+.app {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #282828;
+    border-radius: 30px;
+    align-items: center;
+    padding: 15px;
+    font-family: "AbhayaLibre", sans-serif;
+    justify-content: center;
+    top: 20%;
+    left: 28%;
+}
+
+.header {
+    color: #F2F2F2;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: 'Actor', sans-serif;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.headerTitle {
+    text-align: center;
+}
+
+.header .headerIcon {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.mainBlock {
+    width: 400px;
+    margin: 0 auto;
+    font-family: "AbhayaLibre", sans-serif;
+}
